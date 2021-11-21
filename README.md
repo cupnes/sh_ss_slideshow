@@ -6,6 +6,8 @@
   <img src=".data/yabause.png" width="320px" alt="エミュレータ(Yabause)で実行している様子">
 - 実機で実行している様子  
   <img src=".data/ss.jpg" width="320px" alt="実機で実行している様子">
+- デモ(YouTube)  
+  https://youtu.be/Cf2OsA-tPDM
 
 ## ディスクイメージ生成手順
 
