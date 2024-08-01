@@ -14,7 +14,7 @@
 1. このリポジトリをダウンロードあるいはclone
 2. imagesディレクトリに画像を配置
 3. `scripts/src/main.sh`の20行目辺りにある`NUM_IMGS_DEC`へ画像枚数を設定
-   ```
+   ```shell-script
    ...
    ## スライドショーの画像枚数(10進数で指定)
    NUM_IMGS_DEC=<画像枚数>
