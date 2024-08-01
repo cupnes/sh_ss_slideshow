@@ -13,12 +13,19 @@
 
 1. このリポジトリをダウンロードあるいはclone
 2. imagesディレクトリに画像を配置
-3. シェル上でこのリポジトリのディレクトリへ移動し`build.sh`を実行
+3. `scripts/src/main.sh`の20行目辺りにある`NUM_IMGS_DEC`へ画像枚数を設定
+   ```
+   ...
+   ## スライドショーの画像枚数(10進数で指定)
+   NUM_IMGS_DEC=<画像枚数>
+   ...
+   ```
+4. シェル上でこのリポジトリのディレクトリへ移動し`build.sh`を実行
    ```bash
    $ cd /path/to/sh_ss_slideshow/
    $ ./build.sh
    ```
-4. `build.sh`が完了すると、セガサターン向けディスクイメージ(`sh_ss_slideshow.cue`・`sh_ss_slideshow.iso`)ができあがる
+5. `build.sh`が完了すると、セガサターン向けディスクイメージ(`sh_ss_slideshow.cue`・`sh_ss_slideshow.iso`)ができあがる
 
 ## 実行環境
 
